@@ -9,6 +9,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import {MatSliderModule} from '@angular/material/slider';
+import {FormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [],
@@ -20,7 +24,12 @@ import {MatSliderModule} from '@angular/material/slider';
     MatToolbarModule,
     MatListModule,
     MatCardModule,
-    MatSliderModule
+    MatSliderModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatCheckboxModule
   ]
 })
 export class MaterialModule { }

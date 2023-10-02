@@ -9,6 +9,7 @@ import { DemoRoutingModule } from './demo-routing.module';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { FlexboxComponent } from './flexbox/flexbox.component';
 import { SliderComponent } from './slider/slider.component';
+import { SliderConfigurableComponent } from './slider-configurable/slider-configurable.component';
 
 
 
@@ -16,7 +17,8 @@ import { SliderComponent } from './slider/slider.component';
   declarations: [
     ButtonsComponent,
     FlexboxComponent,
-    SliderComponent
+    SliderComponent,
+    SliderConfigurableComponent
   ],
   imports: [
     CommonModule,
